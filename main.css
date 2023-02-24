@@ -1,0 +1,43 @@
+/*imports normalize*/
+@import "normalize.css";
+
+/*small screen*/
+@media screen and (max-width: 600px) {
+    /*grid 1 col*/
+   .grid{
+        display: grid;
+        grid-template-columns: auto;
+        background-color: rgb(30, 214, 218);
+        padding: 10px;
+   }
+}
+
+@media screen and (max-width: 600px){
+    /*media query other*/
+    .grid{
+        display: grid;
+        grid-template-columns: auto;
+        background-color: rgb(199, 29, 69);
+        padding: 10px;
+   }
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+/*grid item format*/
+.grid-item{
+    background-color: blue;
+    border: 3px solid darkorange;
+    padding: 20px;
+    font-size: 25px;
+    text-align: right;
+    justify-content: center;
+}
+
+/*centering header*/
+h2 {
+    text-align: center;
+}
